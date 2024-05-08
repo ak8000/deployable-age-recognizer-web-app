@@ -1,19 +1,15 @@
-[![CI/CD Pipeline](https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja/actions/workflows/ci-cd.yml)
-
-# Final Project
+**note** since this app is not currently not deployed,I generalized the CI/CD pipile file (chaning Docker username there to just 'username', so if your want to clone it and deploy on Digital Ocean or somewhere else, make sure to add your username there, and create an env with OPENAI API Key, Secret Key, and also add them to your repo secrets on github along with DOCKERHUB username and token
 
 # Project Description
-This project utilizes ML to estimate the age, gender, race, and dominant emotion of the user. Through the web app, a user can upload their photo to be analyzed. The user can then view their results and a generated message related to their analysis.
+This is a containeraized webapp that utilizes deepface ML to estimate the age, gender, race, and dominant emotion of the user. Through the web app, a user can upload their photo to be analyzed. The user can then view their results and a generated message related to their analysis.
 
 # How to run
 
-Our project is currently deployed [here](http://143.198.20.243:5002/) --> http://143.198.20.243:5002/
-
-If not using the deployed link, this app can be run through Docker Desktop. If you need to install Docker, you can create an account and download it [here](https://www.docker.com/products/docker-desktop/).
+This app can be run through Docker Desktop. If you need to install Docker, you can create an account and download it [here](https://www.docker.com/products/docker-desktop/).
 
 Create a local repository using the following command:
     
-    git clone https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja.git
+    git clone https://github.com/ak8000/deployable-age-recognizer-web-app.git
 
 After navigating to the local repository, run the following command (you must ensure that Docker Desktop is running).
 
