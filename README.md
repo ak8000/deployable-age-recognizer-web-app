@@ -1,7 +1,5 @@
 [![CI/CD Pipeline](https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja/actions/workflows/ci-cd.yml)
 
-[![Event Logger](https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja/actions/workflows/event-logger.yml/badge.svg)](https://github.com/software-students-spring2024/5-final-project-spring-2024-ai-ja/actions/workflows/event-logger.yml)
-
 # Final Project
 
 # Project Description
