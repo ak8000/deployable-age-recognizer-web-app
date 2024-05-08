@@ -21,10 +21,6 @@ To install the required dependencies and run the program, run the following comm
 
 To use the app, open a web browser and navigate to [localhost:5002](http://localhost:5002/).
 
-# Starter Data
-
-No starter data is required.
-
 # Contributors
 
 - [Alex Kondratiuk](https://github.com/ak8000)
