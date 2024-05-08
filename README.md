@@ -1,4 +1,4 @@
-**note** since this app is not currently not deployed,I generalized the CI/CD pipile file (chaning Docker username there to just 'username', so if your want to clone it and deploy on Digital Ocean or somewhere else, make sure to add your username there, and create an env with OPENAI API Key, Secret Key, and also add them to your repo secrets on github along with DOCKERHUB username and token
+**NOTE**  this app is not currently not deployed so to run need to build locally.I generalized the CI/CD pipile file (changing Docker username there to just 'username', so if your want to clone it and deploy on Digital Ocean or somewhere else, make sure to add your username there, and create an env with OPENAI API Key, Secret Key, and also add them to your repo secrets on github along with DOCKERHUB username and token
 
 # Project Description
 This is a containeraized webapp that utilizes deepface ML to estimate the age, gender, race, and dominant emotion of the user. Through the web app, a user can upload their photo to be analyzed. The user can then view their results and a generated message related to their analysis.
